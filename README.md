@@ -1,10 +1,12 @@
 Enzyme Efficieny
 ==============
 
-This is a java web application that will allow you to build a model for 
+This is a java web application that will allow you to experiment with building a model for 
 a protein enzyme using FASTA file input and a set of targets.
 
-It was built in 2010 while I was working for the BioTec in Dresden, Germany.
+It was built in 2010 while I was working for the [Pisabarro Group](http://www.biotec.tu-dresden.de/research/pisabarro.html) 
+within the [BioTec in Dresden, Germany](www.biotec.tu-dresden.de/)
+
 It has since sat forgotten and neglected on a hard drive until I discovered
 it again today (6 Dec 2018).
 
@@ -44,7 +46,12 @@ Compile and Export as a War file.
 Run inside TomCat
 
 
-## Usage
+## Example
+
+Inside the [example](example) directory you will find a simple example data set you can run.
+
+
+### Additional
 
 The [Tre](Tre) folder contains some datasets and experiments I was doing in 2010.
 

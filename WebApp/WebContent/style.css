@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+
+body {text-align: center; }
+
+a:active {  color: #22FF22; text-decoration: none}
+a:hover {  color: #FF2222; text-decoration: none}
+a:visited {  text-decoration: none}
+a:link {  text-decoration: none}
+
+/* BEGIN Stolen Stuff */
+
+div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}
+*:focus{outline:0}
+body{line-height:1em;color:black;background:#fff}
+ol,ul{list-style:none}
+
+q,blockquote{quotes:"" ""}
+q:before,q:after,blockquote:before,blockquote:after{content:""}
+img a{border:none; vertical-align:baseline}
+body{font-size:12px;font-family:"Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;line-height:1.5;color:#333332}
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,fieldset,dd,article{margin-bottom:20px}
+h1,h2,h3,h4,h5,h6{font-family:Helvetica, Arial, sans-serif;margin-bottom:0;line-height:1.2;font-weight:bold;color:#111111}
+a{color:#000;font-weight:bold}
+a:visited{color:#333332}
+a:hover{color:#99cc00}
+a:active{color:#99cc00}
+a:hover{text-decoration:none}
+a:focus{outline:1px dotted invert}
+h1{font-size:36px}
+h2{font-size:24px}
+h3{font-size:18px}
+h4{font-size:16px}
+h5{font-size:14px}
+h6{font-size:12px}
+strong{font-weight:bold}
+em{font-style:italic}
+pre{font-family:Monaco, "Courier New", Courier, monospace}
+sup,sub{height:0;line-height:1;vertical-align:baseline;_vertical-align:bottom;position:relative;font-size:85%}
+sup{bottom:1ex}sub{top:.5ex}mark{background-color:#ffff88}
+li{margin-left:0}ul{list-style:disc inside}
+ol{list-style:decimal inside}
+dl{padding:10px}
+dt{font-weight:bold}
+dd{margin-left:0}.company-name{font-weight:bold;text-transform:uppercase}
+.metadata{text-transform:uppercase;font-size:10px;color:#888888}
+.footnote{font-size:11px;color:#888888;font-style:italic;padding:0 20px}
+.quiet{font-size:10px;color:#888888}
+.permalink{font-family:Helvetica, Arial, sans-serif;font-size:11px}
+.permalink a{background-color:#111111;color:#fff;display:inline-block;padding:4px;line-height:1;margin-bottom:5px;text-decoration:none}
+.permalink a:hover{background-color:#99cc00}
+article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block}
+
+nav.main ul{margin:0;padding:0;border:0;outline:0;overflow:hidden;display:inline-block;border-bottom:10px solid #212121;}
+nav.main ul{display:block}
+nav.main ul li{list-style-type:none;margin-left:0px;white-space:nowrap;display:inline;float:left;padding-left:0;padding-right:0}
+nav.main ul li.first{padding-left:0px}
+nav.main ul li.last{padding-right:0px}
+nav.main a{zoom:1;display:inline;display:-moz-inline-box;display:inline-block;vertical-align:top;height:30px;line-height:40px;padding:0 10px;text-decoration:none}
+nav.main a:visited{color:#000}
+nav.main a:hover{background-color:#99cc00;color:#fff;}
+nav.main a:active{background-color:#111111}
+nav.main a.current{background-color:#111133;color:#fff;}
+nav.main a.current:visited{color:#fff}
+nav.main a.current.contact{background-color:#212121;}
+nav.main a.current.contact:visited{color:#fff}
+
+nav.main a.help{float:right;}
+
+.clear{clear:both}
+
+/* FORM  STYLES */
+
+form{font-size:12px;padding:5px}
+textarea#sequences{height:140px;border:1px solid #ccc;background-color:#fff;width:590px;padding:5px 0;font-family: Courier, "Courier New", monospace}
+textarea#efficiencies{height:140px;border:1px solid #ccc;background-color:#fff;width:70px;padding:5px 0;font-family: Courier, "Courier New", monospace}
+/*label{display:block;margin:0 5px 5px 0;font-weight:bold;width:70px;float:left;line-height:26px;text-align:right}*/
+label{display:block;margin:0 5px 5px 0;font-weight:bold;width:100px;float:left;line-height:26px;text-align:left}
+label.long{display:block;margin:0 5px 5px 0;font-weight:bold;width:200px;float:left;line-height:26px;text-align:left}
+label.righttext{display:block;margin:0 5px 5px 0;font-weight:bold;width:100px;float:left;line-height:26px;text-align:right}
+label.right{display:block;margin:0 5px 5px 0;font-weight:bold;width:100px;float:right;line-height:26px;text-align:right}
+label.errorheader{margin:0;width:auto;font-size:12px;background-color:#FF6666;padding:6px;float:left;line-height:16px;color:#fff}
+label.errortext{margin:0;width:auto;font-size:12px;background-color:#FF6666;padding:6px;float:left;line-height:16px;color:#fff}
+label.modelparam{display:block;margin:0 2px 2px 0;font-weight:bold;width:30px;float:left;line-height:26px;text-align:right}
+label.residues{margin:0;width:auto;font-size:14px;font-family: Courier, "Courier New", monospace}
+label.residue{margin:0;width:12px;font-size:16px;font-family: Courier, "Courier New", monospace}
+
+input{font-size:inherit;border:1px solid #ccc;padding:3px;height:15px;float:left;margin-right:5px}
+select{font-size:13px;border:1px solid #ccc;padding:1px;height:23px;float:left;margin-right:5px}
+select.residues{font-size:14px;border:1px solid #ccc;padding:1px;height:21px;float:left;margin-right:2px;font-family: Courier, "Courier New", monospace}
+input.button{width:auto;cursor:pointer;height:23px;padding:2px;font-weight:bold}
+input.submit.button{margin-right:10px;background-color:#EEE;color:#000;border:none;float:right;}
+input.submit.button:hover{background:#99cc00;color:#fff;}
+input.checkbox{padding:0;margin:0;float:none;width:auto;height:auto}
+fieldset{clear:both;margin-bottom:10px}
+
+
+
+/* MESSAGE BOXES : ORIGINAL IDEAD FROM http://www.yourhtmlsource.com/bubbleicious.css */
+.important {    padding: 8px 10px 7px 20px;    border: #3c0 1px solid;    border-radius: 6px;
+				-webkit-border-radius: 6px;    -moz-border-radius: 6px;
+}
+.important legend {    padding: 1px 15px;    background: #f3fff3;    border: #3c0 1px solid;
+   		 				color: #3a0;    font: 1.2em "Trebuchet MS";    -moz-border-radius: 4px;
+}
+
+/*  ERROR MESSAGE BOX */
+.error {    padding: 8px 10px 7px 20px;    border: #FF6666 1px solid;    border-radius: 6px;
+    -webkit-border-radius: 6px;    -moz-border-radius: 6px;
+}
+.error legend {    padding: 1px 15px;    background: #FFF6F6;    border: #FF6666 1px solid;
+    color: #FF6666;    font: 1.2em "Trebuchet MS";    -moz-border-radius: 4px;
+}
+
+
+/* RESULTS TABLES STYLES */
+
+table.results {margin-left:auto; margin-right:auto; text-align: left;font-family: Verdana;font-weight: normal;font-size: 12px;color: #404040;width: 600px;background-color: #fafafa;border: 1px #d79900 solid;border-collapse: collapse;border-spacing: 0px;}
+th.results { padding: 5px; border-bottom: 2px solid #d79900;background-color: #fff2ba;text-align: left;font-family: Verdana;font-weight: bold;font-size: 11px;color: #404040;}
+
+table.model-list {margin-left:auto; margin-right:auto; padding: 5px; text-align: left;font-family: Verdana;font-weight: normal;font-size: 12px;color: #404040;width: 630px;background-color: #fafafa;border: #3c0 1px solid;border-radius: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;}
+th.model-list { padding: 2px; border-bottom: 1px solid #3c0;text-align: left;font-family: Verdana;font-weight: bold;font-size: 12px;color: #404040;}
+td.model-list { padding: 2px; }
+
+/* STYLE FOR POR PROGRESS BARS */
+
+.progressMeter { position: relative; padding: 1px;	width: 80px;	height: 16px;	font-size: 12px; border: solid 1px black; }
+.progressBar {padding:0px; background-color: #00BF00;		position: relative; width: 0px;		height: 16px; }
+    
+/* STYLES FOR DYNAMIC DIVS */
+
+#buildmodel-wrap{background-color:#CCC;padding:10px;border-bottom:4px solid #212121;height:410px;overflow:hidden}
+#buildmodel{color:#333;float:right;width:640px}
+
+#viewmodels-wrap{background-color:#FAFAFA;padding:10px;border-bottom:4px solid #212121;height:56px;overflow:hidden}
+#viewmodel{color:#333;float:right;width:640px}
+
+#testmodel-wrap{background-color:#FAFAFA;padding:10px;border-bottom:4px solid #212121;height:240px;overflow:hidden}
+#testmodel{color:#333;float:right;width:640px}
+
+/* STYLES FOR MAIN DIVS */
+
+div#wrapper {position: relative; width: 700px; padding: 10px; margin: 0 auto; text-align: left; } 
+
+div#header{clear:both}
+
+div#navigation {width: 700px; background: #EEE; padding: 0px; }
+
+div#content {width: 700px; padding: 0px; }
+
+div#modelbox {width: 610px; height: 60px; background: #DDD; padding: 1px; float:left;}
+div#modelresults {width: 50px; height: 30px; background: #FFF; margin:2px 5px 2px 2px; float:left; color: #550000; text-align:center;border: 1px #AA0000 solid;}
+div#messages {width: 680px; background: #FFF; padding: 10px; }
+div#results {width: 660px; background: #FFF; padding: 20px; }
+div#footer {width: 700px; background: #EEE; padding: 0px; }
